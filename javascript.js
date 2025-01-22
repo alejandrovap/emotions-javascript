@@ -1,10 +1,7 @@
-function showImage(){
-    let happyImage = document.getElementById("happyImg");
-    let tenderImage = document.getElementById("tenderImg");
+function showImage(image){
     image.classList.remove("opacity-0");
 }
 
-function hideImage(){
-    let happyImage = document.getElementById("happyImg");
+function hideImage(image){
     image.classList.add("opacity-0");
 }
